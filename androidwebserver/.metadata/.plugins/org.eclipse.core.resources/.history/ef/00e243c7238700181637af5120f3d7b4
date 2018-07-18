@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/plain; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="com.oreilly.servlet.*" %>
+<%@ page import ="com.oreilly.servlet.multipart.*" %>
+
+<%
+	request.setCharacterEncoding("utf-8");
+	
+	String path = getServletContext().getRealPath("upload");
+	//System.out.println(path);
+	
+	//최대 업로드 용량
+	int max =1024*1024*100;
+	DefaultFileRenamePolicy policy = new DefaultFileRenamePolicy();
+	
+	new MultipartRequest(request,path,max,"utf-8",policy);
+%>

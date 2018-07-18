@@ -1,0 +1,8 @@
+<%@ page language="java" contentType="text/plain; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+	String method = request.getMethod();
+	
+	System.out.println("요청방식 : "+ method);
+%>

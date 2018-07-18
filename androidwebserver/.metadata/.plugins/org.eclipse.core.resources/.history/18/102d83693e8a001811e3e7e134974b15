@@ -1,0 +1,14 @@
+<%@ page ontentType="text/plain; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+
+<% 
+	Class.forName("oracle.jdbc.OracleDriver");
+	String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+	String id = "scott";
+	String pw = "1234";
+	
+	Connection db = DriverManager.getConnection(url,id,pw);
+	
+	String sql = "select * from fcm_table where fcm_token?";
+	PreparedStatement psmt = db.prepareState

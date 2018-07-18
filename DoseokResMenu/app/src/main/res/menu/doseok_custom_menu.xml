@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_menu_camera"
+        android:id="@+id/action_camera"
+        android:orderInCategory="1"
+        android:title="camera"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_menu_gallery"
+        android:id="@+id/action_album"
+        android:orderInCategory="2"
+        android:title="Album"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_button"
+        android:orderInCategory="3"
+        android:title="Button"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_button2"
+        android:orderInCategory="4"
+        android:title="Button"
+        app:showAsAction="never"/>
+</menu>
+<!--alway 항상메뉴에 표시ㅡ ifRoom 공간이 있을ㄸ매나 표시, never 마지막?-->

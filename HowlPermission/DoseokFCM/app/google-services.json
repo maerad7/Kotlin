@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "268067420050",
+    "firebase_url": "https://doseokfcm.firebaseio.com",
+    "project_id": "doseokfcm",
+    "storage_bucket": "doseokfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268067420050:android:98d8637d100fda2f",
+        "android_client_info": {
+          "package_name": "com.example.maerad7.doseokfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268067420050-mscnu4fe9pddjekhq61ugs5vl0t0cuq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maerad7.doseokfcm",
+            "certificate_hash": "35e5daef4c8af1a95e161b00cfdbe067789ff752"
+          }
+        },
+        {
+          "client_id": "268067420050-7vr5iiup9ruqua4c31tk8tn2idsh87jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECr_v0O-T2q_shK2z9-UgKPfSokfzkE4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268067420050-7vr5iiup9ruqua4c31tk8tn2idsh87jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

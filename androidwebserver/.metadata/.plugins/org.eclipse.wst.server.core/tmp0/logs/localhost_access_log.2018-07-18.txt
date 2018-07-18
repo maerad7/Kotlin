@@ -1,0 +1,16 @@
+127.0.0.1 - - [18/Jul/2018:13:04:12 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:04:13 +0900] "GET /FCMServer/add_token.jsp HTTP/1.1" 500 2989
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:04:14 +0900] "GET /favicon.ico HTTP/1.1" 404 1085
+192.168.0.3 - - [18/Jul/2018:13:08:51 +0900] "POST /FCMServer/add_token.jsp HTTP/1.1" 500 2989
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:10:42 +0900] "GET /FCMServer/add_token.jsp HTTP/1.1" 500 4663
+192.168.0.3 - - [18/Jul/2018:13:10:50 +0900] "GET /MobileServer/get_list.jsp HTTP/1.1" 200 239
+192.168.0.3 - - [18/Jul/2018:13:10:56 +0900] "POST /FCMServer/add_token.jsp HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:17:00 +0900] "GET /FCMServer/input_message.jsp HTTP/1.1" 200 592
+192.168.0.3 - - [18/Jul/2018:13:26:55 +0900] "GET /MobileServer/get_list.jsp HTTP/1.1" 200 239
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:27:17 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 500 2768
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:29:48 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 500 2686
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:30:39 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 500 2686
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:30:45 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 200 44
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:31:30 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 200 44
+192.168.0.3 - - [18/Jul/2018:13:38:32 +0900] "POST /FCMServer/add_token.jsp HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:13:38:42 +0900] "POST /FCMServer/send_message.jsp HTTP/1.1" 200 44

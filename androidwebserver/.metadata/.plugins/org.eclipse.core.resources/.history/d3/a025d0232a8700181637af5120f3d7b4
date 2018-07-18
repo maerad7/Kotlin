@@ -1,0 +1,38 @@
+<%@page import="org.json.simple.JSONArray"%>
+<%@ page  contentType="application/json; charset="UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+<% page import="org.json.simple.*" %>
+<%
+	Class.forName("oracle.jdbc.OracleDriver");
+	String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+	String id = "scott";
+	String pw = "1234";
+	
+	Connection db = DriverManager.getConnection(url,id,pw);
+	String sql = "select mobile_idx,mobile_img,mobile_str1 from mobile_table order by mobile_idx desc";
+	PreparedStatement pstmt = db.prepareStatement(sql);
+	
+	JSONArray
+	
+	ResultSet rs = pstmt.executeQuery();
+	while(rs.next()){
+		int mobile_idx = rs.getInt("mobile_idx");
+		String mobile_str1 = rs.getString("mobile_str1");
+		String mobile_img = rs.getString("mobile_img");
+	}
+%>
+[
+	{
+		"mobile_idx" : 2,
+		"mobile_str1" : "항목1",
+		"mobile_img" : "이미지 파일 이름"
+	},
+	{
+		"mobile_idx" : 1,
+		"mobile_str1" : "항목2",
+		"mobile_img" : "이미지 파일 이름"
+	}
+	
+
+]
